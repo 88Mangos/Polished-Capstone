@@ -1,0 +1,25 @@
+Start Time: 2024/5/30, 17:40:4
+End Time: 2024/5/30, 18:2:50
+params_CNN = {
+    batch_size = 32
+    num_epochs = 20
+    learning_rate = 0.001
+    min_lr = 1e-05
+    factor = 0.5
+    patience_lr = 5
+    patience_stop = 15
+}
+
+params_DB_VAE = {
+    batch_size = 32
+    num_epochs = 50
+    learning_rate = 0.0005
+    latent_dim = 100
+}
+
+Model 1 completed 20 training epochs.
+Model 2 completed 20 training epochs.
+Model 3 completed 20 training epochs.
+Model 4 completed 50 training epochs.
+Model 5 completed 50 training epochs.
+Model 6 completed 50 training epochs.
