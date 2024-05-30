@@ -1,0 +1,23 @@
+Split original datasets into train and test
+
+Training datasets:
+1. ISIC 
+2. ISIC + DiDI
+3. ISIC + ArGI
+
+Testing Dataset:
+ISIC + DiDI
+Exclude ArGI because these images are not guaranteed to be real
+
+80% of ISIC will be used in training
+80% of DiDI will be used in training
+80% of ArGI will be used in training
+20% of ISIC will go to testing
+20% of DiDI will go to testing
+
+Data Sources:
+ISIC: N = 1972
+DiDI: N = 656
+ArGI: N = 656
+
+80/20 train/test split
