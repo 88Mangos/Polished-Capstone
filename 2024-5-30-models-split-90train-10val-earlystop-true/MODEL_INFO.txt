@@ -1,0 +1,20 @@
+Start Time: 2024/5/30, 13:46:11
+
+params_CNN = {
+    batch_size = 32
+    num_epochs = 20
+    learning_rate = 0.001
+    min_lr = 1e-05
+    factor = 0.5
+    patience_lr = 5
+    patience_stop = 15
+}
+
+params_DB_VAE = {
+    batch_size = 32
+    num_epochs = 50
+    learning_rate = 0.0005
+    latent_dim = 100
+}
+
+End Time: 2024/5/30, 14:28/38
