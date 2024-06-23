@@ -2,3 +2,4 @@
 /tests/
 .DS_Store
 *.keras
+comet_key.txt
