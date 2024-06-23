@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 train dataset1
 Start Time: 2024/6/23, 12:33:15
 End Time: 2024/6/23, 12:48:37
@@ -21,3 +22,32 @@ epochs: 30
 verbose: 1
 callbacks: [<keras.src.callbacks.model_checkpoint.ModelCheckpoint object at 0x386f5b280>, <keras.src.callbacks.reduce_lr_on_plateau.ReduceLROnPlateau object at 0x386f5ad70>]
 
+=======
+Start Time: 2024/6/23, 14:5:33
+End Time: 2024/6/23, 14:14:46
+params_CNN = {
+    optimizer = SGD
+    batch_size = 32
+    num_epochs = 25
+    learning_rate = 0.01
+    min_lr = 1e-05
+    factor = 0.8
+    patience_lr = 5
+    patience_stop = 10
+}
+
+params_DB_VAE = {
+    optimizer = SGD
+    batch_size = 32
+    num_epochs = 25
+    learning_rate = 0.0005
+    latent_dim = 100
+}
+
+Model 1 completed 13 training epochs.
+Model 2 completed 18 training epochs.
+Model 3 completed 15 training epochs.
+Model 4 completed 25 training epochs.
+Model 5 completed 25 training epochs.
+Model 6 completed 25 training epochs.
+>>>>>>> Stashed changes
